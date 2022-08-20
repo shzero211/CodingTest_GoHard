@@ -1,4 +1,4 @@
-package baekjoon.tony.graph_traversal;
+package baekjoon.tony.graph_traversal.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
