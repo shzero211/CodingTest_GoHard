@@ -24,9 +24,11 @@ public class 트리의부모찾기_silver_11725 {
         Queue<Integer> q=new LinkedList<>();
         q.add(1);
         visited[1]=true;
+        //부모를 저장하는 배열
         int[] answer=new int[n+1];
         while(!q.isEmpty()){
             int k=q.poll();
+            //자식들을 방문하면서 부모삽입해주기
             for(int a:arr[k]){
                 if(visited[a]==false){
                     visited[a]=true;
