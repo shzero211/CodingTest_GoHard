@@ -8,8 +8,8 @@ assignees: ''
 ---
 
 # 📑 체크리스트
--[ ] N_Week_Mission 디렉토리 생성
--[ ] N_Week_Record 디렉토리 생성
--[ ] one
--[ ] two
--[ ] three
+- [ ] N_Week_Mission 디렉토리 생성
+- [ ] N_Week_Record 디렉토리 생성
+- [ ] one
+- [ ] two
+- [ ] three
