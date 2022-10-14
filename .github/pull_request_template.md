@@ -1,3 +1,11 @@
+---
+name: pr
+about: pr
+title: pr
+labels: ''
+assignees: ''
+
+---
 ## 📖 Key Changes(write include commit)
 * ex) Feat : 로그인 기능 생성
   * Oauth2 를 이용한 구글 로그인 기능 생성
