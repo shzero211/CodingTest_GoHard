@@ -3,6 +3,7 @@
 <details>
 <summary>문제 풀이 로그</summary>
 <div markdown="1">       
-
+<p>2022/11/09</p>
+<p>완전탐색 : </p>
 </div>
 </details>
