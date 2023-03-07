@@ -1,0 +1,21 @@
+package softeer.level2;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class 바이러스 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st=new StringTokenizer(br.readLine());
+        long k=Long.parseLong(st.nextToken());
+        long p=Long.parseLong(st.nextToken());
+        long n=Long.parseLong(st.nextToken());
+        long sum=0;
+        for(int i=0;i<n;i++){
+            k=(k*p)%1000000007;
+        }
+        System.out.println(k);
+    }
+}
