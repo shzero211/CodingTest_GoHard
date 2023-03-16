@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT m.ID as '가게 ID',m.NAME ,count(c.CATEGORY) as '결제 횟수' from CARD_USAGES as c inner join (select id,NAME from MERCHANTS  where NAME LIKE '%강남%' OR NAME LIKE '%논현%') as m on m.id=c.MERCHANT_ID where c.CATEGORY=0 group by m.ID order by m.id;
