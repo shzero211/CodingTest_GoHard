@@ -59,7 +59,7 @@ public class 숨박꼭질3 {
                 }
             }
 
-            //오른쪽 한칸
+            //왼쪽 한칸
             if(nowP-1>=0&&nowP-1<=100000){
                 if(visited[nowP-1]==0||visited[nowP-1]>nowT+1){
                     visited[nowP-1]=nowT+1;
@@ -67,7 +67,7 @@ public class 숨박꼭질3 {
                 }
             }
 
-            //오른쪽 한칸
+            //2배씩 이동
             if(nowP*2>=0&&nowP*2<=100000){
                 if(visited[nowP*2]==0||visited[nowP*2]>nowT){
                     visited[nowP*2]=nowT;
